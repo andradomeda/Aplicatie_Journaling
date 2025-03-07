@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Schimba utilizatorul" android:id="@+id/option1"></item>
+    <item android:title="Adauga entry" android:id="@+id/option3"></item>
+    <item android:title="Despre aplicatie... " android:id="@+id/option2"></item>
+    <item android:title="Vizualizare DB review " android:id="@+id/option4"></item>
+    <item android:title="Vizualizare DB entry " android:id="@+id/option5"></item>
+    <item android:title="Vizualizare Retea " android:id="@+id/option6"></item>
+
+</menu>
