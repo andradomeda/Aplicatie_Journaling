@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Proiect Andrada</string>
-    <string-array name="Mood">
-        <item>FERICIT</item>
-        <item>TRIST</item>
-    </string-array>
-</resources>
