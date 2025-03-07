@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clouds_blueish"
+    tools:context=".EntryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/tvLabelTitluMemorie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/yeseva_one"
+            android:text="La ce te gandesti azi..."
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etEntryMemorie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@android:drawable/edit_text"
+            android:ems="10"
+            android:hint="Introduceti o memorie"
+            android:inputType="text"
+            android:padding="10dp" />
+
+
+
+
+
+        <Spinner
+            android:id="@+id/spnTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/ivMemorie"
+            android:layout_width="243dp"
+            android:layout_height="303dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/bubbleorange" />
+
+        <Button
+            android:id="@+id/btnSalveazaEntry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvează"
+            android:textSize="30sp"
+            android:background="@drawable/rounded_button"
+            android:fontFamily="@font/yeseva_one"
+            android:textColor="@color/black"
+            android:layout_marginBottom="24dp"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

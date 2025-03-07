@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clouds_white"
+    tools:context=".AboutUsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTitluAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/yeseva_one"
+            android:text="Despre noi..."
+            android:textAlignment="center"
+            android:textColor="#4A3C83"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTextAbout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+
+            android:fontFamily="@font/yeseva_one"
+            android:lineSpacingExtra="8dp"
+            android:text="      Această aplicație este creată cu pasiune și dedicare de către Andrada Mărgărit, studentă de nota 10 la materia 'Dispozitive și aplicații mobile'."
+            android:textColor="#281E4D"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tvTextAbout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+
+            android:lineSpacingExtra="8dp"
+            android:fontFamily="@font/yeseva_one"
+            android:text="      Misiunea aplicației este să ofere utilizatorilor un spațiu digital unde își pot împărtăși gândurile și experiențele într-un mediu plăcut și sigur."
+            android:textColor="#281E4D"
+            android:textSize="10sp"
+             />
+
+        <TextView
+            android:id="@+id/tvReviewAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Iată review-urile noastre!"
+            android:textSize="20sp"
+            android:textColor="#281E4D"
+            android:fontFamily="@font/yeseva_one"
+            android:layout_marginBottom="24dp"
+            />
+
+        <ListView
+            android:id="@+id/lvReviewList"
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnInpoiAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Înapoi"
+            android:textSize="30sp"
+            android:background="@drawable/rounded_button"
+            android:fontFamily="@font/yeseva_one"
+            android:textColor="@color/black"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnAddAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add review"
+            android:textSize="30sp"
+            android:background="@drawable/rounded_button"
+            android:fontFamily="@font/yeseva_one"
+            android:textColor="@color/black"
+            android:layout_marginBottom="24dp"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
